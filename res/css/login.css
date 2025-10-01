@@ -1,38 +1,4 @@
-.header{
-    top: 0;
-    display: flex;
-    padding-top: .5em;
-    padding-bottom: .5em;
-    padding-left: .5em;
-    background-color:lightpink;
-    border-color: salmon;
-    border-radius: 4px;
-    justify-content: space-between;
-    flex-direction: row;
-}
 
-.nav{
-    margin-top: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav a{
-    display: flex;
-    color: deeppink;
-    font-size:x-large;
-    flex-direction: row;
-    padding: .5em;
-}
-.nav a:hover {
-    background-color: #f4c3cc;
-    color: #092747;
-}
-.image {
-    padding: .5em;
-}
 form {
     display: flex;
     flex-direction: column;

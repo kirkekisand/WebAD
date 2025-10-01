@@ -20,40 +20,15 @@ footer{
     justify-content: center;
 }
 
-
-
-.header{
-    top: 0;
+.nav{
     display: flex;
-    position: sticky;
-    background-color: lightpink;
     flex-direction: row;
     justify-content: space-between;
-    border-radius: 15px;
-    box-shadow: 15%;
-    
-}
-.nav{
-    margin-top: 4px;
-    display: flex;
-    
 }
 
 
 .login {
-    margin: 5px
-    
-}
-
-.nav a{
-    padding: 10px 15px;
-    text-align: center;
-    color: darkslategrey;
-    font-size: large;
-}
-.nav a:hover{
-    background-color: lightblue;
-
+    margin: 1%;
 }
 
 }
