@@ -23,6 +23,7 @@ form {
     justify-content: center;
     align-items: center;
     background-color: lightpink;
+    border-radius: 1em;
     padding: 2em;
 }
 .bluetxt {
