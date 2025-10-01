@@ -18,3 +18,10 @@
     color: deeppink;
     font-size: medium;
 }
+.nav a:hover {
+    background-color: #f4c3cc;
+    color: #092747;
+}
+.loginBox {
+    display: flex;
+}
