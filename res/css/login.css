@@ -1,0 +1,20 @@
+.header{
+    top: 0;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: .5em;
+    background-color:lightpink;
+    border-color: salmon;
+    border-radius: 5px;
+}
+
+.nav{
+    margin-top: 5px;
+}
+
+.nav a{
+    text-align: left;
+    display: block;
+    color: deeppink;
+    font-size: medium;
+}

@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
 
-    <header class="header">
-      <ul class = "nav">
-        <li><a href="index.html">home</a></li>
-        <li><a href="login.html">login</a></li>
-        <li><a href="addPost.html">addPost</a></li>
-      </ul>
-    </header>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="res/images/favicon.ico">
+  <link rel="stylesheet" href="res/css/addPost.css">
+  <title>addPost</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <h1 class="nav">
+      <a href="index.html">Home</a>
+    </h1>
+  </header>
+
+  <section class="postBox">
+  <form>
+    <div class="form-grid">
+      <label for="postBody">Post body</label>
+      <textarea id="postBody" placeholder="post text"></textarea>
+
+      <label for="myFile">Select file</label>
+      <input type="file" id="myFile" name="myFile">
+    </div>
+
+    <input type="submit" value="Create post">
+  </form>
+</section>
+
+
+</body>
+
 </html>
