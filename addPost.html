@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="res/css/addPost.css">
   <link rel="stylesheet" href="res/css/main.css">
   <title>addPost</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -16,15 +17,16 @@
     <ul class="nav">
       <a href="index.html">HOME</a>
     </ul>
+    <a class="login" href="login.html"><img src="res/images/pfp.png" width="50" height="50"></a>
   </header>
 
   <section class="postBox">
-  <form>
+  <form action="index.html">
     <div class="form-grid">
-      <label for="postBody">Post body</label>
+      <label for="postBody">Post<br>body</label>
       <textarea id="postBody" placeholder="post text"></textarea>
 
-      <label for="myFile">Select file</label>
+      <label for="myFile">Select<br>file</label>
       <input type="file" id="myFile" name="myFile">
     </div>
 

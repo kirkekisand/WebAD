@@ -1,11 +1,13 @@
 body {
     background-color: #fee0e6;
+
 }
 
 .postBox {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
     min-height: 80vh;
 
 }
@@ -15,9 +17,9 @@ form {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 60vw;
-    max-width: 500px;
-    min-height: 250px;
+    width: 90%;
+    max-width: 400px;
+    height: 250px;
     gap: 1rem;
     background-color: #f3afbb;
     border-radius: 15px;
@@ -35,7 +37,18 @@ form {
 }
 
 textarea {
-    width: 30vw;
-    max-width: 300px;
-    min-height: 100px;
+    width: 100%;
+    max-width: 190px;
+    height: 100px;
+    resize: none;
+}
+
+input[type="file"] {
+    color: transparent;
+}
+
+@media (max-width: 900px) {
+    form {
+        width: 100%;
+    }
 }
