@@ -1,7 +1,7 @@
 [
   {
     "postId": "p1",
-    "profileImg": "res/images/pfp.png",
+    "profileImg": "res/images/estoniapfp.png",
     "author": "peeter",
     "createTime": "October 1, 2025",
     "postImg": null,
@@ -9,7 +9,7 @@
   },
   {
     "postId": "p2",
-    "profileImg": "res/images/pfp.png",
+    "profileImg": "res/images/moominpfp2.jpg",
     "author": "Lily",
     "createTime": "September 25, 2025",
     "postImg": "res/images/Puma.jpg",
@@ -17,7 +17,7 @@
   },
   {
     "postId": "p3",
-    "profileImg": "res/images/pfp.png",
+    "profileImg": "res/images/alarmfp.jpg",
     "author": "John",
     "createTime": "September 22, 2025",
     "postImg": null,
@@ -25,7 +25,7 @@
   },
   {
     "postId": "p4",
-    "profileImg": "res/images/pfp.png",
+    "profileImg": "res/images/girlpfp.png",
     "author": "Mari",
     "createTime": "September 14, 2025",
     "postImg": "res/images/flower.jpg",
@@ -33,7 +33,7 @@
   },
   {
     "postId": "p5",
-    "profileImg": "res/images/pfp.png",
+    "profileImg": "res/images/guypfp.jpg",
     "author": "Tom",
     "createTime": "August 29, 2025",
     "postImg": "res/images/lamp.jpg",
