@@ -2,7 +2,7 @@
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
 
-footer{
+#footer{
     position:static;
     width: 100%;
     left: 0;

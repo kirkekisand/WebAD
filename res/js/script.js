@@ -8,14 +8,27 @@ window.onload = function(){
                 div.className = 'postBox';
                 let header = this.document.createElement("header");
                 let profImg = this.document.createElement("img");
-                profImg.src = json[i].profImg;
-                let postTitle = this.document.createElement("h3");
-                postTitle.innerText = json[i].title;
+                profImg.src = json[i].profileImg;
+                let date = this.document.createElement("p");
+                date.innerText = json[i].createTime;
+                header.appendChild(profImg);
+                header.appendChild(date);
+                div.appendChild(header);
+                if(json[i].postImg!=null){
+                    let postImg = this.document.createElement("img");
+                    postImg.src = json[i].postImg;
+                    div.appendChild(postImg);
+                }
                 let postBody = this.document.createElement("p");
-                postBody.innerText = json[i].body;
-                div.appendChild(postTitle);
+                postBody.innerText = json[i].postText;
                 div.appendChild(postBody);
-                this.document.body.appendChild(div);
+                this.document.getElementById("feed").appendChild(div);
             }
         })
+        .catch(err => {
+            let errDiv = document.createElement("div");
+            errDiv.className = 'post';
+            errDiv.innerText = err;
+            document.body.appendChild(errDiv);
+            })
 }

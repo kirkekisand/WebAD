@@ -1,7 +1,7 @@
 [
   {
     "postId": "p1",
-    "profileImg": "../images/pfp.png",
+    "profileImg": "res/images/pfp.png",
     "author": "peeter",
     "createTime": "October 1, 2025",
     "postImg": null,
@@ -9,15 +9,15 @@
   },
   {
     "postId": "p2",
-    "profileImg": "../images/pfp.png",
+    "profileImg": "res/images/pfp.png",
     "author": "Lily",
     "createTime": "September 25, 2025",
-    "postImg": "../images/Puma.jpg",
+    "postImg": "res/images/Puma.jpg",
     "postText": "Yo has anyone seen my puma I lost mine..."
   },
   {
     "postId": "p3",
-    "profileImg": "../images/pfp.png",
+    "profileImg": "res/images/pfp.png",
     "author": "John",
     "createTime": "September 22, 2025",
     "postImg": null,
@@ -25,18 +25,18 @@
   },
   {
     "postId": "p4",
-    "profileImg": "../images/pfp.png",
+    "profileImg": "res/images/pfp.png",
     "author": "Mari",
     "createTime": "September 14, 2025",
-    "postImg": "../images/flower.jpg",
+    "postImg": "res/images/flower.jpg",
     "postText": "This is my drawing of a flower. What do you think?"
   },
   {
     "postId": "p5",
-    "profileImg": "../images/pfp.png",
+    "profileImg": "res/images/pfp.png",
     "author": "Tom",
     "createTime": "August 29, 2025",
-    "postImg": "../images/lamp.jpg",
+    "postImg": "res/images/lamp.jpg",
     "postText": "I think my lamp is broken. Does anyone know how to fix it?"
   }
 ]
