@@ -1,0 +1,42 @@
+[
+  {
+    "postId": "p1",
+    "profile img": "../images/pfp.png",
+    "author": "peeter",
+    "create time": "October 1, 2025",
+    "post img": null,
+    "post body text": "Mu isamaaa mu õnn ja rõõm, kui kaunis oled sa!!"
+  },
+  {
+    "postId": "p2",
+    "profile img": "../images/pfp.png",
+    "author": "Lily",
+    "create time": "September 25, 2025",
+    "post img": "../images/Puma.jpg",
+    "post body text": "Yo has anyone seen my puma I lost mine..."
+  },
+  {
+    "postId": "p3",
+    "profile img": "../images/pfp.png",
+    "author": "John",
+    "create time": "September 22, 2025",
+    "post img": null,
+    "post body text": "Just got myself an alarm clock, hope this helps me wake up in the future."
+  },
+  {
+    "postId": "p4",
+    "profile img": "../images/pfp.png",
+    "author": "Mari",
+    "create time": "September 14, 2025",
+    "post img": "../images/flower.jpg",
+    "post body text": "This is my drawing of a flower. What do you think?"
+  },
+  {
+    "postId": "p5",
+    "profile img": "../images/pfp.png",
+    "author": "Tom",
+    "create time": "August 29, 2025",
+    "post img": null,
+    "post body text": ""
+  }
+]
