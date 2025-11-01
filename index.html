@@ -1,76 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="res/js/script.js"></script>
-    <link rel="icon" href="res/images/favicon.ico">
-    <link rel="stylesheet" href="res/css/style.css">
-    <link rel="stylesheet" href="res/css/main.css">
-  </head>
-  <body>
-    <header class = "header">
-      <ul class = "nav">
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="addPost.html">ADD POST</a></li>
-      </ul>
 
-      <a class="login" href="login.html"><img src="res/images/pfp.png" width="50" height="50"></a>
-    </header>
-    <br>
-    <section class="grid">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="res/js/script.js"></script>
+  <link rel="icon" href="res/images/favicon.ico">
+  <link rel="stylesheet" href="res/css/style.css">
+  <link rel="stylesheet" href="res/css/main.css">
+</head>
+
+<body>
+  <header class="header">
+    <ul class="nav">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="addPost.html">ADD POST</a></li>
+    </ul>
+    <div class="profile-dropdown">
+      <div class="dropbtn">
+        <img src="res/images/pfp.png" width="50" height="50" />
+      </div>
+      <div class="dropdown-content">
+        <p>John Doe</p>
+        <p>john.doe@ut.ee</p>
+        <p>logout</p>
+      </div>
+    </div>
+  </header>
+
+  <script src="res/js/dropdown.js"></script>
+
+  <br>
+  <section class="grid">
+    <div class="sidebar"></div>
+    <div id="feed">
+      <div class="postBox">
+        <header>
+          <img src="res/images/pfp.png">
+          <p>Oct 1, 2025</p>
+        </header>
+        <p>Mu isamaaa mu õnn ja rõõm, kui kaunis oled sa!!</p>
+        <img class="like" src="res/images/like.png">
+
+      </div>
+      <div class="postBox">
+        <header>
+          <img src="res/images/pfp.png">
+          <p>Sept 25, 2025</p>
+        </header>
+        <img src="res/images/Puma.jpg">
+        <p> Yo has anyone seen my puma I lost mine...</p>
+        <img class="like" src="res/images/like.png">
+      </div>
+      <div class="postBox">
+        <header>
+          <img src="res/images/pfp.png">
+          <p>Sept 22, 2025</p>
+        </header>
+        <p>I told my friend he needs to touch grass, now everyone is calling me mean. AITA?</p>
+        <img class="like" src="res/images/like.png">
+      </div>
+      <div class="postBox">
+        <header>
+          <img src="res/images/pfp.png">
+          <p>Sept 16, 2025</p>
+        </header>
+        <img src="res/images/bluescreen.avif">
+        <p> hlep.</p>
+        <img class="like" src="res/images/like.png">
+      </div>
+      <div class="postBox">
+        <header>
+          <img src="res/images/pfp.png">
+          <p>Sept 20, 2025</p>
+        </header>
+        <img src="res/images/diabolical.jpg">
+        <p> Should I limit my screen time or is this fine? My friend said I should touch grass, which was mean</p>
+        <img class="like" src="res/images/like.png">
+      </div>
+
       <div class="sidebar"></div>
-      <div id="feed">
-        <div class="postBox">
-          <header>
-            <img src="res/images/pfp.png">
-            <p>Oct 1, 2025</p>
-          </header>
-          <p>Mu isamaaa mu õnn ja rõõm, kui kaunis oled sa!!</p>
-          <img class="like" src="res/images/like.png">
-        
-        </div>
-        <div class="postBox">
-            <header>
-              <img src="res/images/pfp.png">
-              <p>Sept 25, 2025</p>
-            </header>
-            <img src="res/images/Puma.jpg">
-            <p> Yo has anyone seen my puma I lost mine...</p>
-            <img class="like" src="res/images/like.png">
-        </div>
-        <div class="postBox">
-            <header>
-              <img src="res/images/pfp.png">
-              <p>Sept 22, 2025</p>
-            </header>
-            <p>I told my friend he needs to touch grass, now everyone is calling me mean. AITA?</p>
-            <img class="like" src="res/images/like.png">
-        </div>
-        <div class="postBox">
-          <header>
-              <img src="res/images/pfp.png">
-              <p>Sept 16, 2025</p>
-          </header>
-          <img src="res/images/bluescreen.avif">
-          <p> hlep.</p>
-          <img class="like" src="res/images/like.png">
-        </div>
-        <div class="postBox">
-             <header>
-              <img src="res/images/pfp.png">
-              <p>Sept 20, 2025</p>
-             </header>
-             <img src="res/images/diabolical.jpg">
-             <p> Should I limit my screen time or is this fine? My friend said I should touch grass, which was mean</p>
-             <img class="like" src="res/images/like.png">
-        </div>
-        
-        <div class="sidebar"></div>
-    
-    </section>
-    <footer id="footer">
-      <p>trallalleero</p>
-    </footer>
-  </body>
+
+  </section>
+  <footer id="footer">
+    <p>trallalleero</p>
+  </footer>
+</body>
+
 </html>

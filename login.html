@@ -1,32 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="res/images/favicon.ico">
-    <link rel="stylesheet" href="res/css/login.css">
-    <link rel="stylesheet" href="res/css/main.css">
-  </head>
-  <body>
-    <header class="header">
-        <ul class="nav">
-            <a href="index.html">HOME</a>
-        </ul>
-        <a class="login" href="login.html"><img src="res/images/pfp.png" width="50" height="50"></a>
-    </header>
-    <section class="loginBox">
-      <div class="formBox">
-        <h2>Welcome to PostIt</h2>
-        <p2 class="bluetxt">Create an account</p2>
-        <p>or</p>
-        <p>Please log in</p>
-        <form action="index.html" class = "form">
-          <input type="text" name="Email" placeholder="Email" required><br>
-          <input type="password" name="password" placeholder="Password" required><br>
-          <input type="submit" value="Log in"><br>
-        </form>
-        <p2 class="bluetxt">Forget password</p2>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="res/images/favicon.ico">
+  <link rel="stylesheet" href="res/css/login.css">
+  <link rel="stylesheet" href="res/css/main.css">
+</head>
+
+<body>
+  <header class="header">
+    <ul class="nav">
+      <a href="index.html">HOME</a>
+    </ul>
+    <div class="profile-dropdown">
+      <div class="dropbtn">
+        <img src="res/images/pfp.png" width="50" height="50" />
       </div>
-    </section>
-  </body>
+      <div class="dropdown-content">
+        <p>John Doe</p>
+        <p>john.doe@ut.ee</p>
+        <p>logout</p>
+      </div>
+    </div>
+  </header>
+
+  <script src="res/js/dropdown.js"></script>
+  
+  <section class="loginBox">
+    <div class="formBox">
+      <h2>Welcome to PostIt</h2>
+      <p2 class="bluetxt">Create an account</p2>
+      <p>or</p>
+      <p>Please log in</p>
+      <form action="index.html" class="form">
+        <input type="text" name="Email" placeholder="Email" required><br>
+        <input type="password" name="password" placeholder="Password" required><br>
+        <input type="submit" value="Log in"><br>
+      </form>
+      <p2 class="bluetxt">Forget password</p2>
+    </div>
+  </section>
+</body>
+
 </html>
