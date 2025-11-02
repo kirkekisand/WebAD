@@ -38,5 +38,50 @@
     "createTime": "August 29, 2025",
     "postImg": "res/images/lamp.jpg",
     "postText": "I think my lamp is broken. Does anyone know how to fix it?"
+  },
+
+  {
+    "postId": "p6",
+    "profileImg":"res/images/flappybird.png",
+    "author": "Meelis",
+    "createTime": "August 26, 2025",
+    "postImg": null,
+    "postText": "I told my friend he needs to touch grass, now everyone is calling me mean. AITA?"
+  },
+
+  {
+    "postId": "p7",
+    "profileImg":"res/images/teletupsud.jpg",
+    "author": "Maali",
+    "createTime": "August 22, 2025",
+    "postImg": "res/images/diabolical.jpg",
+    "postText": "Should I limit my screen time or is this fine? My friend said I should touch grass, which was mean :("
+  },
+
+  {
+    "postId": "p8",
+    "profileImg":"res/images/ivolinna.png",
+    "author": "Ivolinna",
+    "createTime": "August 19, 2025",
+    "postImg": "res/images/bluescreen.avif",
+    "postText": "hlep."
+  },
+
+  {
+    "postId": "p9",
+    "profileImg":"res/images/AAAA.jpg",
+    "author": "Toomas",
+    "createTime": "August 15, 2025",
+    "postImg": null,
+    "postText": "Have you ever had a dream that you um you you would you could you do you wish you want you could do so  you you want them to do so much you could do anything?  "
+  },
+
+  {
+    "postId": "p10",
+    "profileImg":"res/images/monstersinc.jpg",
+    "author": "Meelis",
+    "createTime": "August 10, 2025",
+    "postImg": null,
+    "postText": "Happy new year guys!"
   }
 ]

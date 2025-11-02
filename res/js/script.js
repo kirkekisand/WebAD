@@ -1,4 +1,5 @@
 window.onload = function(){
+    //fetch("https://api.npoint.io/9c759da9f18f77e0d169")
     fetch("res/json/posts.json")
         .then((response) => response.json())
         .then(json =>{
@@ -22,6 +23,11 @@ window.onload = function(){
                 let postBody = this.document.createElement("p");
                 postBody.innerText = json[i].postText;
                 div.appendChild(postBody);
+                //like button
+                let likeButton = this.document.createElement("img");
+                likeButton.className = 'like';
+                likeButton.src = "res/images/like.png";
+                div.appendChild(likeButton);
                 this.document.getElementById("feed").appendChild(div);
             }
         })
